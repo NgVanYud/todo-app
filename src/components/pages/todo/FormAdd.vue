@@ -71,14 +71,6 @@
     </div>
 
     <div class="row">
-      <div class="col-3">
-        <app-button
-          color="secondary"
-          @click.prevent="resetForm" 
-          class="w-100 mt-4">
-          <span>Reset</span>
-        </app-button>
-      </div>
       <div class="col-6">
         <app-button
           v-if="isCreateMode"
@@ -96,7 +88,7 @@
           <span>Update</span>
         </app-button>
       </div>
-      <div class="col-3">
+      <div class="col-6">
         <app-button
           color="info"
           @click.prevent="cancelForm" 
